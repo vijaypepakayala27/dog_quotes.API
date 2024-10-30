@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-file_path = 'dog_quotes.json'
+file_path = 'quotes.json'
 
 # Load or initialize quotes
 if os.path.exists(file_path):
